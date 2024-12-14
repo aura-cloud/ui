@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="location">
+                <h1>London</h1>
+                <p><b>25°C ⛅</b></p>
+                <p><b>Good Morning</b></p>
+            </div>
+            <div class="time">
+               <p> 08:44:56</p>
+               <p>14/12/2024</p>
+            </div>
+            
+        </header>
+        <div class="button">
+        <button> City</button>
+        <button>Date</button>
+        <button>Latest news</button>
+        <button>Traffic Area</button>
+        <button>Pollution</button>
+        <button>Air quality</button>
+        </div>
+
+       
+    </div>
+            <div class="end">
+                    <div class="oneline">
+                    <div class="weather-container">
+                        <div class="gradient-background"></div>
+                        <div class="weather-header">Weather Monitor</div>
+                        <div class="weather-info">
+                          <div class="info-item">Temperature: <span>25°C</span></div>
+                          <div class="info-item">Humidity: <span>60%</span></div>
+                          <div class="info-item">Wind Speed: <span>12 km/h</span></div>
+                          <div class="info-item">Air Quality: <span>Good</span></div>
+                          <div class="info-item">Pressure: <span>1013 hPa</span></div>
+                        </div>
+                        <div class="forecast-title">3-Day Forecast</div>
+                        <div class="weather-info">
+                          <div class="forecast-item">Tomorrow: Sunny, 28°C</div>
+                          <div class="forecast-item">Day After: Cloudy, 25°C</div>
+                          <div class="forecast-item">Third Day: Rainy, 22°C</div>
+                        </div>
+                        
+                    </div>
+                    <div class="weather-widget">
+                        <div class="widget-title">UK Weather Forecast</div>
+                    
+                        <!-- Current Weather -->
+                        <div class="current-weather">
+                          <div>
+                            <span class="emoji">🌤</span> <!-- Partly Cloudy Emoji -->
+                            <div class="temperature">15°C</div>
+                            <div class="weather-condition">Partly Cloudy</div>
+                          </div>
+                        </div>
+                    
+                        <!-- 5-Day Forecast -->
+                        <div class="forecast">
+                          <div class="forecast-day">
+                            <div class="day-name">Mon</div>
+                            <div class="emoji">🌤</div> <!-- Partly Cloudy Emoji -->
+                            <div class="forecast-temp">16°C</div>
+                          </div>
+                          <div class="forecast-day">
+                            <div class="day-name">Tue</div>
+                            <div class="emoji">🌦</div> <!-- Showers Emoji -->
+                            <div class="forecast-temp">17°C</div>
+                          </div>
+                          <div class="forecast-day">
+                            <div class="day-name">Wed</div>
+                            <div class="emoji">🌧</div> <!-- Rain Emoji -->
+                            <div class="forecast-temp">14°C</div>
+                          </div>
+                          <div class="forecast-day">
+                            <div class="day-name">Thu</div>
+                            <div class="emoji">⛅</div> <!-- Cloudy with Sun Emoji -->
+                            <div class="forecast-temp">18°C</div>
+                          </div>
+                          <div class="forecast-day">
+                            <div class="day-name">Fri</div>
+                            <div class="emoji">🌤</div> <!-- Partly Cloudy Emoji -->
+                            <div class="forecast-temp">19°C</div>
+                          </div>
+                         
+                        </div>
+                       
+                    
+                    </div>
+                    </div>
+                    <div class="shrija">
+                    <div class="widget-container">
+                        <!-- Clock display -->
+                        <div class="clock" id="clock">08:44:56</div>
+                    
+                        <!-- Calendar display -->
+                        <div class="calendar-title">Today’s Date</div>
+                        <div class="calendar" id="calendar-date">14/12/2024</div>
+                        <div class="calendar-day" id="calendar-day">Saturday</div>
+
+                      </div>
+                    <div class="calendar-container">
+                        <!-- Calendar Title -->
+                        <div class="calendar-title">December 2024</div>
+                    
+                        <!-- Weekdays header -->
+                        <div class="weekdays">
+                          <div class="weekday">Sun</div>
+                          <div class="weekday">Mon</div>
+                          <div class="weekday">Tue</div>
+                          <div class="weekday">Wed</div>
+                          <div class="weekday">Thu</div>
+                          <div class="weekday">Fri</div>
+                          <div class="weekday">Sat</div>
+                        </div>
+                    
+                        <!-- Calendar Days -->
+                        <div class="days">
+                          <!-- Empty days before 1st of the month (padding) -->
+                          <div class="day disabled"></div>
+                          <div class="day disabled"></div>
+                          <div class="day disabled"></div>
+                          <div class="day disabled"></div>
+                          <div class="day disabled"></div>
+                    
+                          <!-- Calendar days -->
+                          <div class="day">1</div>
+                          <div class="day">2</div>
+                          <div class="day">3</div>
+                          <div class="day">4</div>
+                          <div class="day">5</div>
+                          <div class="day">6</div>
+                          <div class="day">7</div>
+                          <div class="day">8</div>
+                          <div class="day">9</div>
+                          <div class="day">10</div>
+                          <div class="day">11</div>
+                          <div class="day">12</div>
+                          <div class="day">13</div>
+                          <div class="day">14</div>
+                          <div class="day">15</div>
+                          <div class="day">16</div>
+                          <div class="day">17</div>
+                          <div class="day">18</div>
+                          <div class="day">19</div>
+                          <div class="day">20</div>
+                          <div class="day">21</div>
+                          <div class="day">22</div>
+                          <div class="day">23</div>
+                          <div class="day">24</div>
+                          <div class="day">25</div>
+                          <div class="day">26</div>
+                          <div class="day">27</div>
+                          <div class="day">28</div>
+                          <div class="day">29</div>
+                          <div class="day">30</div>
+                          <div class="day">31</div>
+                        </div>
+
+                    </div>
+
+                    
+                   
+                    
+            </div>
+                    <div class="wind-speed-container">
+                        <div class="city">
+                            <h2>London</h2>
+                            <p>Wind Speed: <span class="speed">15 km/h</span></p>
+                        </div>
+                        <div class="city">
+                            <h2>Manchester</h2>
+                            <p>Wind Speed: <span class="speed">20 km/h</span></p>
+                        </div>
+                        <div class="city">
+                            <h2>Edinburgh</h2>
+                            <p>Wind Speed: <span class="speed">12 km/h</span></p>
+                        </div>
+                        <div class="city">
+                            <h2>Cardiff</h2>
+                            <p>Wind Speed: <span class="speed">18 km/h</span></p>
+                        </div>
+                        <div class="city">
+                            <h2>Birmingham</h2>
+                            <p>Wind Speed: <span class="speed">16 km/h</span></p>
+                        </div>
+                        <div class="city">
+                            <h2>Belfast</h2>
+                            <p>Wind Speed: <span class="speed">14 km/h</span></p>
+                        </div>
+                    </div>
+                    <h1>UK Pollution over last 10 days</h1>
+
+  <div class="graph-container">
+    <!-- Y-Axis Label -->
+    <div class="y-axis-label">Api Index</div>
+
+    <!-- Bars with labels inside them -->
+    <div class="bar bar1">
+      <div class="bar-label">200</div>
+    </div>
+    <div class="bar bar2">
+      <div class="bar-label">250</div>
+    </div>
+    <div class="bar bar3">
+      <div class="bar-label">300</div>
+    </div>
+    <div class="bar bar4">
+      <div class="bar-label">320</div>
+    </div>
+    <div class="bar bar5">
+      <div class="bar-label">300</div>
+    </div>
+    <div class="bar bar6">
+      <div class="bar-label">350</div>
+    </div>
+    <div class="bar bar7">
+      <div class="bar-label">358</div>
+    </div>
+    <div class="bar bar8">
+      <div class="bar-label">378</div>
+    </div>
+    <div class="bar bar9">
+      <div class="bar-label">245</div>
+    </div>
+    <div class="bar bar10">
+      <div class="bar-label">310</div>
+    </div>
+  </div>
+                   
+
+        <footer class="footer">
+            <p>City Dashboard © 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
